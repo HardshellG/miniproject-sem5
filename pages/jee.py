@@ -11,4 +11,6 @@ st.bar_chart(df, x="Branch of Study", y="Total Seats" )
 dg=pd.read_csv("All IIT List of Percentile.csv")
 st.write(dg)
 st.bar_chart(dg,x="IIT/Branch", y="General" )
-
+st.bar_chart(dg,x="IIT/Branch", y="SC" )
+st.bar_chart(dg,x="IIT/Branch", y="ST" )
+st.bar_chart(dg,x="IIT/Branch", y="OBC" )
